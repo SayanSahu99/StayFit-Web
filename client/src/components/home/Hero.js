@@ -10,9 +10,7 @@ const Hero = ({ isAuthenticated }) => {
         <div className="container box text-center my-md-0 h-100">
           <h1 className="display-4 pt-14 mx-auto">Control your weight</h1>
           <p className="my-5 mx-auto">
-            With CalorieCounter, you can keep a track of the number of calories
-            you had in day to help you know what you need in order to gain or
-            lose weight.
+          StayFit allows you to monitor your daily calorie intake, assisting you in determining the necessary adjustments for weight gain or loss.
           </p>
           <Link
             className="primary-button btn-lg rounded-pill mt-5 py-2 px-4"

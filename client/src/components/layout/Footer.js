@@ -23,14 +23,14 @@ const Footer = () => {
         <div className="row">
           <div className="col text-center">
             <p className="copyrights">
-              © 2021 TARIQ LAMIN GUESRI. ALL RIGHTS RESERVED.
+              © 2022 Sayan Sahu. ALL RIGHTS RESERVED.
             </p>
           </div>
         </div>
         <div className="row">
           <div className="col text-center">
             <a
-              href="https://github.com/TarekGuesri/calorie-counter"
+              href="https://github.com/SayanSahu99/StayFit-Web"
               rel="noreferrer"
               target="_blank"
             >
