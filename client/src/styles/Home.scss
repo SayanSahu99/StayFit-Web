@@ -5,7 +5,7 @@
 
 .jumbotron {
   color: white;
-  background-image: url('../assets/images/hero-background.jpg');
+  background-image: url('../assets/images/background.jpg');
   background-color: 'black';
   background-position: center;
   background-repeat: no-repeat;
@@ -19,6 +19,7 @@
     max-width: 600px;
   }
   p {
+    color: black;
     max-width: 800px;
   }
 }

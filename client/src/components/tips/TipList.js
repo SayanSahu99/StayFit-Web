@@ -22,51 +22,42 @@ const TipList = () => {
         <br />
         <br />
         Where: <br />
-        BMR is basal metabolic rate{' '}
-        <span className="text-muted">
-          (The amount of calories you need per day at rest)
-        </span>
-        .
+        BMR is the Basal Metabolic Rate{' '}
+        <span className="text-muted">(The amount of calories you need per day at rest)</span>.
         <br /> W is body weight in kg.
-        <br />H is body height in cm. <br /> A is age. <br />
+        <br /> H is body height in cm. <br /> A is age. <br />
       </li>
 
       <br />
       <br />
 
       <li>
-        A proper diet and exercise is the most common and accepted way to lose
-        weight. Though, it is not recommended to lower your calorie intake by
-        more than 1000 calories per day{' '}
-        <span className="text-muted">(Losing 1 kg per week) </span>
-        which can be unhealthy, because it can result to a muscle loss which in
-        turn lowers your metabolism.
+        It is recommended not to lower your calorie intake by more than 1000 calories per day{' '}
+        <span className="text-muted">(Losing 1 kg per week)</span>,
+        as this can be unhealthy and may lead to muscle loss, which, in turn, lowers your metabolism.
       </li>
 
       <br />
       <br />
 
       <li>
-        There are many approaches to weight loss and there is no set ideal
-        method that works for all people, which is why so many different diets
-        and exercise regimens exist. While some methods are more effective for
-        each individual person, not all weight loss methods are equivalent, and
-        studies suggest that some approaches are healthier than others.
+        There are many approaches to weight loss, and no single method works for everyone.
+        This is why there are so many different diets and exercise regimens.
+        While some methods may be more effective for certain individuals, not all weight loss methods are equivalent.
+        Studies suggest that some approaches are healthier than others.
       </li>
 
       <br />
       <br />
 
       <li>
-        A lot people confuse bloating with fat. Bloating occurs when your belly
-        becomes enlarged with fluid or gas and not because you are having more
-        calories than you need. It happens when you eat foods that are hard for
-        your stomach to digest{' '}
+        Bloating occurs when your belly becomes enlarged with fluid or gas,
+        and it is not necessarily caused by consuming more calories than you need.
+        It often happens when you eat foods that are hard for your stomach to digest{' '}
         <span className="text-muted">
-          (Such as legumes, dairy, apples, salty foods...etc){' '}
+          (such as legumes, dairy, apples, salty foods, etc.)
         </span>
-        . In order to avoid bloating, it is better to drink more water and try a
-        different diet that does not contain high-FODMAP foods.
+        . To avoid bloating, it is essential to drink more water and consider a different diet that does not include high-FODMAP foods.
       </li>
     </ul>
   );
