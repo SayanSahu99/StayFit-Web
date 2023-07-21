@@ -44,5 +44,5 @@ MONGO_URI=
 Change the default url for axios in the client folder. Axios settings can be found on `client/src/App.js`
 
 ```jsx
-axios.defaults.baseURL = 'https://g-calorie-counter.herokuapp.com/rest';
+axios.defaults.baseURL = 'https://localhost:3000';
 ```
