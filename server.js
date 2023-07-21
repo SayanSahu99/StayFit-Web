@@ -47,6 +47,10 @@ if (process.env.NODE_ENV === 'development') {
   app.use(morgan('dev'));
 }
 
+app.get("/", (req, res) => {
+  res.json({msg:"Hello"});
+})
+
 // Define Routes
 app.use('/rest', require('./routes/rest'));
 
