@@ -42,6 +42,10 @@ app.use(
   })
 );
 
+app.get("/", (req, res) => {
+  res.json({msg: "Hello"});
+})
+
 // Dev logging middleware
 if (process.env.NODE_ENV === 'development') {
   app.use(morgan('dev'));
