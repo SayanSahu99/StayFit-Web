@@ -43,7 +43,7 @@ app.use(
 );
 
 app.get("/", (req, res) => {
-  res.json({msg: "Hello"});
+  res.json({msg: "Deployed"});
 })
 
 // Dev logging middleware
