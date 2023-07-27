@@ -16,7 +16,7 @@ import { loadUser, logout } from 'src/actions/auth';
 import 'src/styles/App.scss';
 
 // Setting Axios' base settings
-axios.defaults.baseURL = 'http://localhost:5000/rest';
+axios.defaults.baseURL = 'https://stayfit-web.sayansahu99.repl.co/rest';
 axios.defaults.headers.post['Content-Type'] = 'application/json';
 
 function App({ loading, loadUser, logout }) {
